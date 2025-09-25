@@ -1,27 +1,14 @@
-//
-//  main.c
-//  week4
-//
-//  Created by 정민형 on 9/25/25.
-//
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(int argc, char * argv[]) {
     
-    int x;
-    int y;
+    int sec;
     
-    printf("Input Two Integars : ");
-    scanf("%i %i",&x,&y);
+    printf("Input the second : ");
+    scanf("%i",&sec);
+    printf("The time is %i:%i\n", sec/60, sec%60);
     
-    printf("+ result = %i\n", x+y);
-    printf("- result = %i\n", x-y);
-    printf("* result = %i\n", x*y);
-    printf("/ result = %i\n", x/y);
-    printf("%% result = %i\n", x%y);
-    
-    system("PAUSE");
     return 0;
 }
